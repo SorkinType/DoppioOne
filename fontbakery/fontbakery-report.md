@@ -25,16 +25,16 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* itilde
-	* Ncaron
-	* ibreve
-	* Ccircumflex
+	* adieresis
+	* amacron
+	* product
+	* ntilde
+	* Edieresis
+	* icircumflex
+	* S
 	* Idieresis
-	* Gcircumflex
-	* Ecircumflex
-	* uni1E60
-	* Ucircumflex
-	* guillemotright and 28 more.
+	* Rcaron
+	* Ycircumflex and 38 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -49,11 +49,11 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uni0324.case
+	- ij_acutecomb
 	- IJ_acutecomb
-	- .null
-	- ij_acutecomb 
-	- And zero.zero.lf
+	- uni0324.case
+	- zero.zero.lf 
+	- And .null
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -89,17 +89,17 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* Eng (U+014A): L<<1339.0,1427.0>--<1339.0,77.0>> -> L<<1339.0,77.0>--<1340.0,-237.0>> and uni0394 (U+0394): L<<758.0,1014.0>--<749.0,984.0>> -> L<<749.0,984.0>--<443.0,226.0>> [code: found-colinear-vectors]
+	* Eng (U+014A): L<<1329.0,1427.0>--<1329.0,77.0>> -> L<<1329.0,77.0>--<1330.0,-237.0>> and uni0394 (U+0394): L<<758.0,1014.0>--<749.0,984.0>> -> L<<749.0,984.0>--<443.0,226.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * Eng (U+014A): L<<1339.0,77.0>--<1340.0,-237.0>>
- * IJ (U+0132): L<<1129.0,1427.0>--<1130.0,238.0>>
+ * Eng (U+014A): L<<1329.0,77.0>--<1330.0,-237.0>>
+ * IJ (U+0132): L<<1141.0,1427.0>--<1142.0,238.0>>
  * J (U+004A): L<<525.0,1427.0>--<526.0,238.0>>
  * Jcircumflex (U+0134): L<<525.0,1427.0>--<526.0,238.0>>
- * ae (U+00E6): L<<1695.0,440.0>--<1034.0,444.0>>
- * aeacute (U+01FD): L<<1695.0,440.0>--<1034.0,444.0>>
+ * ae (U+00E6): L<<1668.0,440.0>--<1007.0,444.0>>
+ * aeacute (U+01FD): L<<1668.0,440.0>--<1007.0,444.0>>
  * dagger (U+2020): L<<628.0,-162.0>--<390.0,-160.0>>
  * daggerdbl (U+2021): L<<639.0,-162.0>--<401.0,-160.0>>
  * florin (U+0192): L<<369.0,-340.0>--<132.0,-339.0>>
