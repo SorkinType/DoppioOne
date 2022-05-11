@@ -20,7 +20,7 @@ S,
 "/tildecomb",
 "/tilde",
 "/tildecomb.case",
-"/tilde.case Õ",
+"Õ",
 "Ñ"
 );
 classes = (
@@ -30,7 +30,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com), with Reserved Font Name \"Doppio\"";
+copyright = "Copyright 2022 The DoppioOne Project Authors (https://github.com/SorkinType/DoppioOne)";
 customParameters = (
 {
 name = description;
