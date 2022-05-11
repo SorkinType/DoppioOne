@@ -15,7 +15,8 @@ J,
 "/macroncomb.case/Emacron",
 F,
 S,
-"Ø"
+"Ø",
+"æ"
 );
 copyright = "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com), with Reserved Font Name \"Doppio\"";
 customParameters = (
@@ -9218,7 +9219,7 @@ unicode = 00E3;
 {
 color = 4;
 glyphname = ae;
-lastChange = "2022-05-11 04:49:06 +0000";
+lastChange = "2022-05-11 05:50:09 +0000";
 layers = (
 {
 anchors = (
@@ -9228,7 +9229,7 @@ position = "{891, 0}";
 },
 {
 name = top;
-position = "{891, 1055}";
+position = "{930, 1055}";
 }
 );
 layerId = "410E5E1C-5FD0-457E-A79B-7BF13808BDAC";
@@ -9336,7 +9337,7 @@ nodes = (
 "567 444 CURVE SMOOTH",
 "794 444 LINE",
 "796 393 LINE SMOOTH",
-"798.667 346.333 OFFCURVE",
+"798 346 OFFCURVE",
 "803.667 305.667 OFFCURVE",
 "813 267 CURVE",
 "747.667 211 OFFCURVE",
@@ -9364,7 +9365,7 @@ unicode = 00E6;
 {
 color = 5;
 glyphname = aeacute;
-lastChange = "2022-05-11 04:49:13 +0000";
+lastChange = "2022-05-11 05:50:11 +0000";
 layers = (
 {
 components = (
@@ -9373,7 +9374,7 @@ name = ae;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 556, 0}";
+transform = "{1, 0, 0, 1, 595, 0}";
 }
 );
 layerId = "410E5E1C-5FD0-457E-A79B-7BF13808BDAC";
@@ -28970,49 +28971,6 @@ width = 868;
 );
 leftKerningGroup = circumflexcomb;
 rightKerningGroup = circumflex;
-},
-{
-glyphname = commaaccentcombcomb;
-lastChange = "2022-05-11 04:43:20 +0000";
-layers = (
-{
-layerId = "410E5E1C-5FD0-457E-A79B-7BF13808BDAC";
-paths = (
-{
-closed = 1;
-nodes = (
-"93 -445 LINE",
-"215 -500 LINE",
-"229.667 -476 OFFCURVE",
-"244.667 -451.333 OFFCURVE",
-"260 -426 CURVE SMOOTH",
-"285.333 -383.333 OFFCURVE",
-"316.333 -327 OFFCURVE",
-"339 -279 CURVE SMOOTH",
-"359 -235 OFFCURVE",
-"370 -203 OFFCURVE",
-"370 -179 CURVE SMOOTH",
-"370 -144.333 OFFCURVE",
-"347 -126.333 OFFCURVE",
-"295 -109 CURVE SMOOTH",
-"265.667 -99.667 OFFCURVE",
-"239.667 -95.667 OFFCURVE",
-"221 -93 CURVE SMOOTH",
-"209.667 -91.667 OFFCURVE",
-"199.333 -91 OFFCURVE",
-"190 -91 CURVE"
-);
-}
-);
-userData = {
-assembly = "PUSHB[ ]	/* 4 values pushed */\0128 15 17 4 \012CALL[ ]	/* CallFunction */\012PUSHB[ ]	/* 1 value pushed */\0128 \012SRP0[ ]	/* SetRefPoint0 */\012PUSHB[ ]	/* 1 value pushed */\01220 \012MDRP[11100]	/* MoveDirectRelPt */\012SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */\012PUSHB[ ]	/* 1 value pushed */\0120 \012RCVT[ ]	/* ReadCVT */\012IF[ ]	/* If */\012PUSHB[ ]	/* 1 value pushed */\01216 \012MDAP[1]	/* MoveDirectAbsPt */\012ELSE[ ]	/* Else */\012PUSHB[ ]	/* 2 values pushed */\01216 19 \012MIAP[0]	/* MoveIndirectAbsPt */\012EIF[ ]	/* EndIf */\012IUP[0]	/* InterpolateUntPts */\012IUP[1]	/* InterpolateUntPts */";
-};
-width = 438;
-}
-);
-leftKerningGroup = commaaccentcomb;
-note = commaaccent;
-rightKerningGroup = commaaccentcomb;
 }
 );
 instances = (
