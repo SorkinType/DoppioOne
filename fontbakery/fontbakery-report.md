@@ -2,17 +2,7 @@
 
 Fontbakery version: 0.8.8
 
-<details><summary><b>[15] DoppioOne-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com), with Reserved Font Name "Doppio"" [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table strings must not contain the string 'Reserved Font Name'. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/rfn">com.google.fonts/check/name/rfn</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name table entry ("Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com), with Reserved Font Name "Doppio"") contains "Reserved Font Name". This is an error except in a few specific rare cases. [code: rfn]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+<details><summary><b>[13] DoppioOne-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2674, but got 2060 instead [code: ascent]
@@ -39,16 +29,16 @@ But instead we have got:
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* Idieresis
-	* Rcaron
-	* ibreve
-	* icircumflex
+	* Udieresis
 	* itilde
+	* imacron
+	* Ccircumflex
+	* guillemotright
+	* Rcaron
+	* Ucircumflex
 	* amacron
-	* Acircumflex
-	* Wdieresis
-	* Ydieresis
-	* Sacute and 28 more.
+	* adieresis
+	* Ccaron and 28 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -63,11 +53,11 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- IJ_acutecomb
-	- ij_acutecomb
+	- uni0324.case
 	- .null
-	- zero.zero.lf 
-	- And uni0324.case
+	- zero.zero.lf
+	- ij_acutecomb 
+	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -125,8 +115,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 12 | 105 | 7 | 98 | 0 |
-| 0% | 1% | 5% | 47% | 3% | 44% | 0% |
+| 0 | 1 | 12 | 105 | 7 | 100 | 0 |
+| 0% | 0% | 5% | 47% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
