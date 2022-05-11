@@ -25,16 +25,16 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* Sacute
-	* lacute
-	* Hcircumflex
-	* Zcaron
-	* Ucircumflex
-	* uni1E60
-	* ibreve
-	* imacron
-	* Udieresis
-	* guillemotright and 28 more.
+	* Wcircumflex
+	* Jcircumflex
+	* Acircumflex
+	* Ecaron
+	* Idieresis
+	* Ncaron
+	* guillemotright
+	* Adieresis
+	* Tcaron
+	* Gcircumflex and 28 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -49,11 +49,11 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- zero.zero.lf
-	- IJ_acutecomb
 	- ij_acutecomb
-	- uni0324.case 
-	- And .null
+	- .null
+	- uni0324.case
+	- IJ_acutecomb 
+	- And zero.zero.lf
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
