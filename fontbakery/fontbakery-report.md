@@ -39,16 +39,16 @@ But instead we have got:
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* amacron
+	* Ecircumflex
 	* Ucircumflex
-	* Wcircumflex
-	* Ccaron
-	* Zcaron
+	* Gcircumflex
+	* Idieresis
+	* Tcaron
+	* itilde
+	* Scedilla
 	* Ncaron
-	* Rcaron
-	* Ecaron
-	* Hcircumflex
-	* Ohungarumlaut
-	* Udieresis and 28 more.
+	* Jcircumflex and 28 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -65,9 +65,9 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 	- IJ_acutecomb
 	- ij_acutecomb
-	- zero.zero.lf
-	- uni0324.case 
-	- And .null
+	- uni0324.case
+	- .null 
+	- And zero.zero.lf
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
