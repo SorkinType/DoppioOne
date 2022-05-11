@@ -18,7 +18,9 @@ Doppio One is a robust low contrast sans serif type with a contemporary feeling.
 
 ## About
 
-Description of you and/or organisation goes here.
+Szymon Celej designs typefaces.
+
+Eben Sorkin designs and art directs typefaces. He works with Sorkin Type Co. and Darden Studio
 
 ## Building
 
@@ -38,7 +40,7 @@ When you update your font (new version or new release), please report all notabl
 [Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
 Changelog example:
 
-**26 May 2021. Version 2.13**
+**11 May 2022. Version 1.002**
 - MAJOR Font turned to a variable font.
 - SIGNIFICANT New Language Support sets added.
 
